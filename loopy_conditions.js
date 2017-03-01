@@ -6,8 +6,17 @@
  * @param  { Number } b
  * @return { Number }
  */
+function greaterNumber(a,b){
+	console.log("hi")
+	if(a < b){
+		return b;
+	}
+	else{
+		return a;
+	}
+}
 
-
+greaterNumber(2,4);
 /**
  * Create a function called 'stringOfNumbers'.
  * This function will take in 1 parameter
@@ -17,7 +26,14 @@
  * @param  { Number } n
  * @return { String }
  */
-
+function stringOfNumbers(n){
+	var string = 10;
+    for(var i = 0; i <= n; i++){
+      string += i;
+	}
+	return string;
+}
+stringOfNumbers(9);
 
 /**
  * Create a function called 'sumOfArray'.
@@ -27,7 +43,9 @@
  * @param  { array } arr
  * @return { Number }
  */
+function sumOfArray(arr){
 
+}
 
 /**
  * Create a function called 'getEvens'.
